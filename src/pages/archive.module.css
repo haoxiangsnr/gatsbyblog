@@ -1,0 +1,37 @@
+.container {
+    margin: 5rem 1.45rem 1.45rem;
+}
+
+.list{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.item {
+    display: inline-block;
+    list-style: none;
+    width: 300px;
+    margin-left: 1.45rem;
+    margin-right: 1.45rem;
+    margin-bottom: 1.45rem;
+    border: #1cb6a0 1px solid;
+    border-radius: 5px;
+}
+
+.link {
+    display: inline-block;
+    text-decoration: none;
+    color: #1cb6a0;
+    font-weight: 100;
+    padding: 0.5rem 1rem;
+}
+.link:hover {
+    color: #03a87c;
+}
+
+.date {
+    font-size: 12px;
+    color:rgba(0,0,0,.54);
+    padding: 0 1rem 0.5rem;
+}

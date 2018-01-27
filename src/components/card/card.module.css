@@ -1,0 +1,56 @@
+/* li可以写的很奔放，但一定要用class，决定不能用li单写 */
+
+.card {
+    max-width: 800px;
+    padding: 1.45rem 2rem ;
+    margin-bottom: 2rem;
+    border: 1px solid rgba(0,0,0,.1);
+}
+
+.title {
+    margin-bottom: 1rem;
+}
+
+.title a {
+    font-size: 1rem;
+    color: hsla(0,0%,0%,0.8);
+    text-decoration: none;
+}
+
+.meta{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    font-size: 12px;
+    color: rgba(0,0,0,.54);
+}
+
+.meta .item {
+    list-style: none;
+}
+
+.excerpt {
+    color: rgba(0,0,0,.54);
+}
+
+.tags {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+.tag {
+    display: inline-block;
+    text-decoration: none;
+    color: #1cb6a0;
+    font-weight: 100;
+    padding: 0.2rem 0.5rem;
+    margin-left: 1rem;
+    border: #1cb6a0 1px solid;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.tag:hover {
+    border: 1px solid #03a87c;
+    color: #03a87c;
+}

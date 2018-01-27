@@ -1,0 +1,26 @@
+.nav {
+    margin-bottom: 1.45rem;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.list {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+.item {
+    list-style: none;
+    margin-bottom: 0;
+    padding: 1rem 0.8rem;
+}
+.curItem {
+    composes: item;
+    border-bottom: 3px solid #1cb6a0;
+}
+
+.link {
+    color: hsla(0,0%,0%,0.8);
+    text-decoration: none;
+}
