@@ -8,14 +8,15 @@ class IndexSummary extends Component {
         const posts = this.props.posts;
         return (
             <div className={styles.container}>
-                <Nav items={['Tags']} curItem='0' />
+                <Nav items={['All Tags']} curItem='0' />
                 <ul className={styles.list}>
                     {
                         Object.keys(posts).map(tagName => {
-                            const tags = posts[tagName];
+                            const tag = posts[tagName];
+                            const len = tag.length;
                             return (
                                 <li className={styles.item} key={tagName}>
-                                    <Link className={styles.link} to={`/tags/${tagName}`}>{tagName}</Link>
+                                    <Link className={styles.link} to={`/tags/${tagName}`}>{tagName}({len})</Link>
                                 </li>
                             );
                         })

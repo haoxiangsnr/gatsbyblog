@@ -35,7 +35,7 @@ export const pageQuery = graphql`
           excerpt(pruneLength: 250)
           frontmatter {
             title
-            date(formatString: "MMMM DD, YYYY")
+            date
             tags
           }
           wordCount {

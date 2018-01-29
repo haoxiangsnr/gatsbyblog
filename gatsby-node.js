@@ -1,7 +1,6 @@
 const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
-
 // 截取出路径，将路径放在一个新的属性中
 exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
   const { createNodeField } = boundActionCreators;
@@ -91,7 +90,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
         createTagPages(createPage, edges);
         createPage({
           path: node.fields.slug,
-          component: path.resolve(`./src/templates/blog-post.jsx`),
+          component: path.resolve(`./src/templates/post/post.jsx`),
           context: {
             // Data passed to context is available in page queries as GraphQL variables.
             slug: node.fields.slug,

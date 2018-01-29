@@ -8,6 +8,7 @@ import styles from "./index.module.css";
 export default function Tags({pathContext}) {
     const {posts, post, tag} = pathContext;
     if (!tag) {
+        console.log(pathContext);
         return <div><IndexSummary posts={posts}/></div>
     }
     const len = post.length;

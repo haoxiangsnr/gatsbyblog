@@ -1,0 +1,76 @@
+.container {
+    padding: 5rem 1.45rem 1.45rem;
+    background: #f3f3f3;
+    
+}
+
+.postContent {
+    max-width: 980px;
+    padding: 2rem 2rem 0 2rem;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.postContent h1 {
+    font-size: 22px;
+    text-align: center;
+}
+
+.postContent h2 {
+    font-size: 20px;
+}
+
+.postContent h3 {
+    font-size: 18px;
+}
+
+.postContent h4 {
+    font-size: 16px;
+}
+.postContent blockquote {
+    border-left: 3px solid #1cb6a0;
+    padding: 1.45rem;
+    margin: 1rem 1rem 1rem 2rem;
+    font-weight: 300;
+    color: rgba(0,0,0,.54);
+
+}
+
+.postContent .list{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.postContent .item {
+    display: inline-block;
+    list-style: none;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 1rem;
+    border: #1cb6a0 1px solid;
+    border-radius: 5px;
+    min-width: 3rem;
+    
+}
+.postContent .link {
+    min-width: 3rem;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    color: #1cb6a0;
+    font-weight: 100;
+    padding: 0.5rem 0.5rem;
+    font-size: 12px;
+}
+.postContent .link:hover {
+    color: #03a87c;
+}
+
+.date {
+    width: 100%;
+    text-align: right;
+    padding-bottom: 1.45rem;
+}

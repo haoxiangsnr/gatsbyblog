@@ -31,7 +31,7 @@
     animation-duration: 1s;
     animation-name: loadin;
     animation-fill-mode: forwards;
-    box-shadow: 1px 1px 3px 0px;
+    box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.2);
 }
 
 .footer {
