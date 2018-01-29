@@ -3,6 +3,16 @@ import Link from "gatsby-link";
 import styles from "./index.module.css";
 import Header from "../components/header/header";
 
+if (typeof document !== `undefined`) {
+    var _hmt = _hmt || [];
+    (function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?f1fbab929e8943d0601b6a6606a7d465";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+    })();
+}
+
 
 export default ({ children, data }) => {
     const metadata = data.site.siteMetadata;

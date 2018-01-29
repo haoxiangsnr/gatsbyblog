@@ -2,11 +2,13 @@
 npm run build
 
 # 删除过往文件
-cd ~/center/gatsbydeploy
+cd ../gatsbydeploy
 ls | grep -v ./git | xargs rm -rf
 
-# 移动文件
-cp -rf ~/center/gatsbyblog/public/* ~/center/gatsbydeploy/
-
+# 此时已经在deploy目录了
+cp -rf ../gatsbyblog/public/* ./
 # git 
 git status
+git add .
+git commit -m date
+git push origin master

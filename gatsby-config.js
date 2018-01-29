@@ -1,5 +1,5 @@
 module.exports = {
-    pathPrefix: `/deploy`,
+    pathPrefix: `/gatsbydeploy`,
     siteMetadata: {
         title: 'HAO羊羽',
         nav: ['resume', 'project', 'archive']
