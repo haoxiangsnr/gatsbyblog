@@ -9,7 +9,7 @@ export default class Post extends Component {
         const {date, tags, title} = frontmatter;
         return (
             <div className={styles.container}>
-                <Nav items={[`${title}`, `All Posts`]} curItem='0' links={['',`/`]} />
+                <Nav items={[`${title}`, `All Posts`]} curItem='0' links={['',`/archive`]} />
                 <div className={styles.postContent}>
                     <div dangerouslySetInnerHTML={{
                             __html: html
