@@ -21,3 +21,7 @@ module.exports = {
 // package.json
 "build": "gatsby build --prefix-paths",
 ```
+
+
+## 注意
+1. tags中是后续的属性名，用英文
