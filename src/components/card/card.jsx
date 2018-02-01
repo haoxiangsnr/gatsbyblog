@@ -8,10 +8,11 @@ class Card extends Component {
         const {excerpt, frontmatter, fields, wordCount} = node;
         const slug = fields.slug;
         const tags = frontmatter.tags;
+        // `/posts${slug}` 前面必须加/，否则就是相对路径了
         return (
             <div className={styles.card}>
                 <h1 className={styles.title}>
-                    <Link to={slug}>{frontmatter.title}</Link>
+                    <Link to={`/posts${slug}`}>{frontmatter.title}</Link>
                 </h1>
                 <ul className={styles.meta}>
                     <li className={styles.item}>创建时间：{frontmatter.date}</li>

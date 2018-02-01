@@ -13,7 +13,7 @@ class Index extends React.Component {
         const posts = this.props.data.allMarkdownRemark.edges;
         return (
         <div className={styles.container}>
-            <Nav items={['Recently Posts', 'All Posts']} links={[``, `/archive`]} curItem='0' />
+            <Nav items={['最近的文章', '文章汇总']} links={[``, `/archive`]} curItem='0' />
             {   
                 posts.map((postData, i) => (
                     <Card key={`card-${i}`} node={postData.node} />

@@ -8,7 +8,7 @@ class IndexSummary extends Component {
         const posts = this.props.posts;
         return (
             <div className={styles.container}>
-                <Nav items={['All Tags']} curItem='0' />
+                <Nav items={['返回首页','标签汇总']} curItem='1' links={['/', '/tags']} />
                 <ul className={styles.list}>
                     {
                         Object.keys(posts).map(tagName => {

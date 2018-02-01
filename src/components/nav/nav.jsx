@@ -1,5 +1,5 @@
-// links[]，items[], curItem=''
-// items.len > 1， 必须要有links
+// links[]，items[], curItem=''都必须有
+// links给参数的时候，要注意绝对路径还是相对路径，curitem指向的链接可以不给
 import React, {Component} from "react";
 import styles from './nav.module.css';
 import Link from 'gatsby-link';
@@ -7,16 +7,6 @@ import Link from 'gatsby-link';
 class Nav extends Component {
     render() {
         const { items, curItem, links } = this.props;
-        // 最常规的标题，仅有一个导航的时候，不需要链接
-        if (items.length == 1) {
-            return (
-                <div className={styles.nav}>
-                    <ul className={styles.list}>
-                        <li className={styles.curItem}>{items[0]}</li>
-                    </ul>
-                </div>
-            );
-        }
         return (
             <div className={styles.nav}>
                 <ul className={styles.list}>
@@ -25,6 +15,7 @@ class Nav extends Component {
                         items.map((item, i) => {
                             if ( curItem == i) {
                                 return (
+                                    // curItem 项
                                     <li key={i} className={styles.curItem}>{item}</li>
                                 );
                             }

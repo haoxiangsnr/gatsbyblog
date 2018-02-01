@@ -12,11 +12,11 @@ export default function Tags({pathContext}) {
         return <div><IndexSummary posts={posts}/></div>
     }
     const len = post.length;
-    const navTitle = `${len} tagged with ${tag}`;
+    const navTitle = `共计 ${len} 个关于 ${tag} 的标签`;
     
     return (
         <div className={styles.container}>
-            <Nav items={[`${navTitle}`, `All tags`]} curItem='0' links={[``, `/tags`]} />
+            <Nav items={[`${navTitle}`, `标签汇总`]} curItem='0' links={[``, `/tags`]} />
             <ul>
                 {   
                     post.map((node, i) => {

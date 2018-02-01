@@ -13,7 +13,7 @@ class Archive extends Component {
         const posts = this.props.data.allMarkdownRemark.edges;
         return (
         <div className={styles.container}>
-            <Nav items={['All Posts', 'Back']} curItem='0' links={[``, `/`]} />
+            <Nav items={['返回首页', '文章汇总']} curItem='1' links={[`/`, ``]} />
             <ul className={styles.list}>
                 {
                     posts.map((post, i) => {
