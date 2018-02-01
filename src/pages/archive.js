@@ -20,7 +20,7 @@ class Archive extends Component {
                         const node = post.node;
                         return (
                             <li className={styles.item} key={i}>
-                                <Link className={styles.link} to={`${node.fields.slug}`}>{node.frontmatter.title}</Link>
+                                <Link className={styles.link} to={`/posts${node.fields.slug}`}>{node.frontmatter.title}</Link>
                                 <p className={styles.date}>{node.frontmatter.date}</p>
                             </li>
                         )

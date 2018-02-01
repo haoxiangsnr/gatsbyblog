@@ -24,6 +24,4 @@ git commit -m 'initial commit of my project'
 来看看现在仓库中有什么：
 一个表示文件快照内容的 blob 对象，一个记录着目录树内容，以及其中各个文件具体对应哪个 blob 对象的索引 tree 对象。以及一个包含着指向索引 tree 对象，以及其他提交信息元数据的 commit 对象。如图：
 
-![首次提交对象及其树结构](./git-branch/1.png)
-
-// tingle
+![](a.png)

@@ -5,7 +5,8 @@ const { createFilePath } = require(`gatsby-source-filesystem`)
 exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
   const { createNodeField } = boundActionCreators;
   if (node.internal.type === `MarkdownRemark`) {
-    const slug = createFilePath({ node, getNode, basePath: `pages` })
+    // 有些奇怪，在这里变换basePath(pages/posts和pages)并没有区别，这个函数文档中也没有
+    const slug = createFilePath({ node, getNode, basePath: `pages` }) 
     createNodeField({
       node,
       name: `slug`,
@@ -84,12 +85,12 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
   }
 }
     `).then(result => {
-      // 结果就是路径，使用post对应的模板文件，
       const edges = result.data.allMarkdownRemark.edges;
       edges.forEach(({ node }) => {
         createTagPages(createPage, edges);
+        // slug => /content/
         createPage({
-          path: node.fields.slug,
+          path: `/posts${node.fields.slug}`,
           component: path.resolve(`./src/templates/post/post.jsx`),
           context: {
             // Data passed to context is available in page queries as GraphQL variables.
