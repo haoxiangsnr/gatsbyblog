@@ -1,3 +1,8 @@
+git status
+git add .
+git commit -m date
+git push origin master
+
 # 开始构建
 npm run build
 
