@@ -3,6 +3,8 @@ import Card from "../components/card/card";
 import Nav from "../components/nav/nav";
 import styles from "./archive.module.css";
 import Link from "gatsby-link";
+import {Helmet} from "react-helmet";
+
 class Archive extends Component {
     constructor(props) {
         super(props)
@@ -13,6 +15,9 @@ class Archive extends Component {
         const posts = this.props.data.allMarkdownRemark.edges;
         return (
         <div className={styles.container}>
+                <Helmet>
+                    <title>文章汇总</title>
+                </Helmet>
             <Nav items={['返回首页', '文章汇总']} curItem='1' links={[`/`, ``]} />
             <ul className={styles.list}>
                 {

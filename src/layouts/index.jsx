@@ -2,6 +2,7 @@ import React from "react";
 import Link from "gatsby-link";
 import styles from "./index.module.css";
 import Header from "../components/header/header";
+import "prismjs/themes/prism-coy.css"
 
 if (typeof document !== `undefined`) {
     var _hmt = _hmt || [];

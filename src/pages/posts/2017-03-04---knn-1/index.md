@@ -14,7 +14,7 @@ tags: ["ML", "KNN"]
 使用k-NN算法进行分类，输入一个未知分类的测试数据，通过计算其与已知分类数据之间的某种距离，之后从训练数据中抽离出距离测试数据较近的样本，一一查看其分类，再进行多数表决，即可估算出测试数据的分类。
 下面举个例子：
 
-![k-NN图例]()
+![k-NN图例](https://coding.net/u/getcha22/p/gatsbyblog/git/raw/master/src/pages/posts/2017-03-04---knn-1/a.png)
 
 绿圆是我们需要进行分类的测试数据，为了确定它的分类，我们可以通过欧式距离公式计算它和整个空间上所有样本的距离。按照我们预先设置的K值，找到离它最近的K个样本，上图我们假设了K值为3，我们发现实线圆中有三个训练样本与测试样本最接近，分别为两个红三角，一个蓝方块。于是我们推算出这个绿圆的分类与红三角相同。
 
@@ -22,19 +22,20 @@ tags: ["ML", "KNN"]
 
 下面我们通过识别手写体数据这个实例来进行说明。手写体数字，就是下面图片展示的数据，他们没有完全统一的规则，我们需要让计算机在数据中发现规律，帮助我们识别新的手写体数字是几。
 
-![手写体数字]()
+![手写体数字](https://coding.net/u/getcha22/p/gatsbyblog/git/raw/master/src/pages/posts/2017-03-04---knn-1/b.png)
+
 
 首先我们获取训练数据，还有测试数据。我们可以google MNIST这个关键字，之后从上面下载已经打好标签的数据，也可以直接从我的[GITHUB仓库](https://github.com/getcha22/Machine-Learning/tree/master/k-NN)里面直接复制粘贴，毕竟我们学习的目标是算法。
 
 下面我们看看这些数据：
 
-![手写体数字1]()
-![手写体数字2]()
+![手写体数字1](https://coding.net/u/getcha22/p/gatsbyblog/git/raw/master/src/pages/posts/2017-03-04---knn-1/c.png)
+![手写体数字2](https://coding.net/u/getcha22/p/gatsbyblog/git/raw/master/src/pages/posts/2017-03-04---knn-1/d.png)
 
 每行数据会构成一个样本，训练集共有100个这样的样本，每个样本第一列是该样本的标签(见图一)。通过0-255表达某个像素的灰度值，0表示纯黑色，而255表示白色，其他值介于两者之间。
 好，解释清楚样本的格式，我们现在需要加这些数据引入代码中，这样才可以对他们操作：
 
-```py
+```python
 	
 def parse_data():
     file_names = [

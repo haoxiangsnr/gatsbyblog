@@ -17,7 +17,7 @@ ndarray是numpy支持的数据类型，numpy相关运算的对象都是它。我
 
 创建ndarray最常用的方法就是直接从列表或者元组创建，如下：
 
-```py
+```python
 arr = np.ndarray(list/tuple)
 arr = np.ndarray(list/tuple, dtype=np.float32)
 ```
@@ -28,7 +28,7 @@ arr = np.ndarray(list/tuple, dtype=np.float32)
 
 我们可以使用numpy中预装的方法来创建ndarray，这些方法创建的ndarray数据都有明显的特征。
 
-```py
+```python
 np.arange(n)
 # 元素值为0~n-1
 np.ones((shape))
@@ -45,7 +45,7 @@ np.eye(n)
 
 我们还可以直接已有的某个形状的数组创建对应的全1或者全0的数组。
 
-```py
+```python
 # a为我们已有的ndarray类型的数组
 np.ones_like(a)
 # 创建一个与a的形状相同的数组，只不过新数组的值全为1
@@ -56,13 +56,13 @@ np.full(a, val)
 
 除此之外，我们还可以类似MATLAB中一样，指定要生成数组的起止元素和元素总数，之后numpy会等间距的自动填充数据，形成最终的数组。
 
-```py
+```python
 np.linspace(start, end, num) # 三个参数分别为起始值，终点值，以及最终数组中希望包含的元素个数。
 ```
 
 对于linspace方法，我们可以指定一个参数endpoint，通过它来告知numpy最终生成的n长度的数组中是否包含最末的元素。看个例子：
 
-```py
+```python
 np.linspace(1,2,2)
 Out: array([ 1.,  2.])
 np.linspace(1,2,2,endpoint=False)
@@ -80,7 +80,7 @@ Out: array([ 1. ,  1.5])
 
 我们可以使用resize，reshape方法
 
-```py
+```python
 a.resize((shape))
 a.reshape((shape))
 ```
@@ -89,7 +89,7 @@ a.reshape((shape))
 
 如果需要直接变换成一个一维的数组，可以使用flatten()这个用来降维的方法
 
-```py
+```python
 a = np.eye(5)
 Out:
 array([[ 1.,  0.,  0.,  0.,  0.],
@@ -108,7 +108,7 @@ array([ 1.,  0.,  0.,  0.,  0.,  0.,  1.,  0.,  0.,  0.,  0.,  0.,  1.,
 
 除了支持数组形状的变换外，我们有时需要改变数组中元素的类型，可以使用astype()方法，注意它返回的是一个新数组。
 
-```py
+```python
 a = np.eye(1)
 Out: array([[ 1.]])
 # 默认为浮点类型
@@ -123,7 +123,7 @@ Out: array([[1]])
 
 我们一个项目中往往会用到很多第三方包或者库，我们不能指望其他库也支持numpy的ndarray类型数据，为此我们需要将其转换为list类型，再传给其他包或者库做运算，我们可以使用tolist方法还原。
 
-```py
+```python
 a = np.eye(1)
 Out: array([[ 1.]])
 a.tolist()

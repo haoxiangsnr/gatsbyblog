@@ -9,7 +9,7 @@ tags: ["ML", "KNN"]
 
 首先从store中取出样本数据，存到局部变量中
 
-```py
+```python
 data_store = parse_data()
 # 测试样本向量
 test_vectors = data_store["test_set"]["vectors"]
@@ -23,7 +23,7 @@ train_vectors_mat = data_store["train_set"]["vectors"]
 
 之后我们利用这些数据来进行k-NN分类
 
-```py
+```python
 def classify(test_data_vector, training_data_mat, k):
     # 复制向量成矩阵
     test_data_mat = np.tile(test_data_vector, (training_data_mat.shape[0], 1))
@@ -39,7 +39,7 @@ def classify(test_data_vector, training_data_mat, k):
 
 除了进行排序，我们还需要测试错误数据的占比，得出结论，这样才可以判断算法的优劣。
 
-```py
+```python
 def cal_vote(nearest_index, label, train_vectors_labels):
     # 统计错误的票数
     error_count = 0.0
@@ -57,7 +57,7 @@ def cal_vote(nearest_index, label, train_vectors_labels):
 cal_vote函数接受三个参数，nearest_index是距离待测点最近的几个向量的索引，正确label，测试的label。之后计算投票，这里按照少数服从多数，有时候还可以按照距离的权重为各个向量加权。
 之后我们调用上文的函数，代码如下
 
-```py
+```python
 # 分类错误的总数
 sum_error_count = 0.0
 for i in range(len(test_vectors)):
