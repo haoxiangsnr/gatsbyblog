@@ -23,6 +23,7 @@ export default ({ children, data }) => {
         <Header 
             title={metadata.title}
             nav={metadata.nav}
+            links={metadata.links}
         />
         {children()}
         <footer className={styles.footer}>
@@ -46,6 +47,7 @@ export const query = graphql `
       siteMetadata {
         title
         nav
+        links
       }
     }
   }

@@ -2,7 +2,8 @@ module.exports = {
     pathPrefix: `/gatsbydeploy`,
     siteMetadata: {
         title: 'HAO羊羽',
-        nav: ['resume', 'project', 'archive']
+        nav: ['resume', 'archive'],
+        links: ['http://resume.haoxiang.tech', '/archive'],
     },
     plugins: [
       `gatsby-plugin-react-helmet`,
