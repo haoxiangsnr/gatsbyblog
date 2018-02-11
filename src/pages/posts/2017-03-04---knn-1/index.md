@@ -2,6 +2,7 @@
 title: "机器学习之k-NN算法实战(一)"
 date: "2017-03-04"
 tags: ["ML", "KNN"]
+popular: true
 ---
 # 机器学习之k-NN算法实战(一)
 

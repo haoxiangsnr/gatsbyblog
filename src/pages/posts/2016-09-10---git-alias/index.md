@@ -2,6 +2,7 @@
 title: "Git 学习小记之使用别名"
 date: "2016-09-10"
 tags: ["Git"]
+popular: true
 ---
 # Git 学习小记之使用别名
 
