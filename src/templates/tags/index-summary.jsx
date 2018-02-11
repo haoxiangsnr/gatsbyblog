@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import Link from "gatsby-link";
 import Nav from "../../components/nav/nav";
-import styles from "./index-summary.module.css"
+import styles from "./index-summary.module.less"
 
 class IndexSummary extends Component {
     render () {

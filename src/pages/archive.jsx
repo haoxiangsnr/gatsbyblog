@@ -1,18 +1,19 @@
 import React, {Component} from "react";
 import Card from "../components/card/card";
 import Nav from "../components/nav/nav";
-import styles from "./archive.module.css";
+import styles from "./archive.module.less";
 import Link from "gatsby-link";
 import {Helmet} from "react-helmet";
 
 class Archive extends Component {
     constructor(props) {
-        super(props)
+        super(props);
         this.state = { count: 0 }
     }
 
     render() {
         const posts = this.props.data.allMarkdownRemark.edges;
+        console.log(posts[0].node.frontmatter.date);
         return (
         <div className={styles.container}>
                 <Helmet>

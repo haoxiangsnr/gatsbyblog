@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import styles from './header.module.css';
+import styles from './header.module.less';
 import Link from 'gatsby-link';
 
 class Header extends Component {
@@ -9,7 +9,7 @@ class Header extends Component {
         return (
             <div className={styles.header}>
                 <h1 className={styles.title}>
-                    <Link to={"http://haoxiang.tech"}>{this.props.title}'s Blog</Link>
+                    <Link to={"/"}>{this.props.title}'s Blog</Link>
                 </h1>
                 <ul className={styles.list}>
                     <li className={styles.item}><Link to={'/archive'} className={styles.link}>Archive</Link></li>

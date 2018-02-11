@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import styles from "./post.module.css";
+import styles from "./post.module.less";
 import Link from "gatsby-link";
 import Nav from "../../components/nav/nav";
 import {Helmet} from "react-helmet";

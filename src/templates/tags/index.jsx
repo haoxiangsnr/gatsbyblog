@@ -3,7 +3,7 @@ import Link from "gatsby-link";
 import IndexSummary from "./index-summary";
 import Nav from "../../components/nav/nav";
 import Card from "../../components/card/card";
-import styles from "./index.module.css";
+import styles from "./index.module.less";
 
 export default function Tags({pathContext}) {
     const {posts, post, tag} = pathContext;

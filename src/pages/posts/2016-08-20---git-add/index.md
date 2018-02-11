@@ -2,6 +2,7 @@
 title: "Git 学习小记之 add"
 date: "2016-08-20"
 tags: ["Git"]
+popular: true
 ---
 # Git 学习小记之 add
 
