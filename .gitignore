@@ -64,4 +64,5 @@ typings/
 public
 yarn-error.log
 
+# idea
 .idea/

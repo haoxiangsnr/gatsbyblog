@@ -59,14 +59,14 @@ name.includes('this');
 所谓多行字符串，就是说所有空格和缩进都会被保存，嵌入变量则指使用`${x}`这样的方式来拼接字符串和变量，下面看例子：
 
 ```js
-let name = "hao
+let name = `hao
 big small
-";
+`;
 console.log(name);
-//会保持缩进和空格
-"hao
-big small
-"
+// 会保持缩进和空格
+// hao
+// big small
+
 let obj = {a: 'xiang'};
 let a = `hao${obj.a}`;
 console.log(a);
