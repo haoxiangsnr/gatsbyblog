@@ -1,0 +1,2 @@
+webpackJsonp([60335399758886],{117:function(t,e){t.exports={data:{site:{siteMetadata:{title:"HAO羊羽",nav:["resume","archive"],links:["http://resume.haoxiang.tech","/archive"]}}},layoutContext:{}}}});
+//# sourceMappingURL=path----20995ef3e4b60fd006f0.js.map

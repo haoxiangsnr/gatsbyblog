@@ -1,0 +1,2 @@
+webpackJsonp([0xb0f3e884bdf1],{436:function(a,s){a.exports={data:{markdownRemark:{html:'<p>Do Pandas eat bananas? Chssseck out thisss short video that shows that yes! pandas dossss\nseem to really enjoy bananas!</p>\n<iframe width="560" height="315" src="https://www.youtube.cssom/embed/4SZl1r2O_bY" frameborder="0" allowfullscreen></iframe>',frontmatter:{title:"Pandas and Bananas",date:"2017-08-21",tags:["animals","Chicago","zoos"]}}},pathContext:{slug:"/pandas-and-bananas/"}}}});
+//# sourceMappingURL=path---pandas-and-bananas-fd591949d694ad31fc36.js.map

@@ -1,0 +1,2 @@
+webpackJsonp([0xcfbdc3fdf6bb],{427:function(t,n){t.exports={data:{markdownRemark:{html:"",frontmatter:{title:"",date:null,tags:null}}},pathContext:{slug:"/knn-2/"}}}});
+//# sourceMappingURL=path---knn-2-e6f2dc3e69b3df81cdf4.js.map

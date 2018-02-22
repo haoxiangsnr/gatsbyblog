@@ -1,0 +1,2 @@
+webpackJsonp([0x98799a1fd094],{442:function(t,a){t.exports={data:{markdownRemark:{html:"",frontmatter:{title:"Rails 安装记录",date:"2015-07-10",tags:["Ruby","Rails","installtion-record"]}}},pathContext:{slug:"/shadowsocks-install/"}}}});
+//# sourceMappingURL=path---shadowsocks-install-a27651491341b0bc86e2.js.map

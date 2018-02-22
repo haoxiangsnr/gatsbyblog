@@ -25,7 +25,8 @@ class Card extends Component {
                         tags.map((tag, i) => {
                             return (
                             <Link key={i} to={`/tags/${tag}`} className={styles.tag}>
-                            {tag}</Link>
+                                {tag}
+                            </Link>
                             );
                         })
                     }
