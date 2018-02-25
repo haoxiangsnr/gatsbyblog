@@ -2,7 +2,7 @@
 title: "数据库范式"
 date: "2018-02-22"
 tags: ["DB"]
-nopublish: "123"
+nopublish: true
 ---
 # 数据库范式
 
