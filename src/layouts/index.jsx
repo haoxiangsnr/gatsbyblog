@@ -39,7 +39,6 @@ export default ({children, data}) => {
         </div>
     )
 }
-
 export const query = graphql `
   query LayoutQuery {
     site {

@@ -22,7 +22,8 @@ class Index extends React.Component {
             <Nav items={['推荐文章', '文章汇总']} links={[``, `/archive`]} curItem='0' />
             {   
                 posts.map((postData, i) => {
-                    if (postData.node.frontmatter.popular) {
+                    const {popular, nopublish} = postData.node.frontmatter;
+                    if (popular && !nopublish) {
                         return (<Card key={`card-${i}`} node={postData.node} />);
                     }
                 })
@@ -46,6 +47,7 @@ export const pageQuery = graphql`
             date
             tags
             popular
+            nopublish
           }
           wordCount {
             paragraphs

@@ -13,7 +13,6 @@ class Archive extends Component {
 
     render() {
         const posts = this.props.data.allMarkdownRemark.edges;
-        console.log(posts[0].node.frontmatter.date);
         return (
         <div className={styles.container}>
                 <Helmet>
@@ -24,11 +23,22 @@ class Archive extends Component {
                 {
                     posts.map((post, i) => {
                         const node = post.node;
+                        const {nopublish, date, title} = node.frontmatter;
+                        let publishedPost;
+                        if (! nopublish) {
+                            publishedPost = (
+                                    <li className={styles.item} key={i}>
+                                        <Link className={styles.link} to={`/posts${node.fields.slug}`}>
+                                            {title}
+                                        </Link>
+                                        <p className={styles.date}>{date}</p>
+                                    </li>
+                            );
+                        }
                         return (
-                            <li className={styles.item} key={i}>
-                                <Link className={styles.link} to={`/posts${node.fields.slug}`}>{node.frontmatter.title}</Link>
-                                <p className={styles.date}>{node.frontmatter.date}</p>
-                            </li>
+                            <div>
+                                {publishedPost}
+                            </div>
                         )
                     })
                 }
@@ -48,6 +58,7 @@ export const pageQuery = graphql`
           frontmatter {
             title
             date
+            nopublish
           }
           fields {
             slug
