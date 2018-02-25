@@ -4,19 +4,19 @@ base on GatsbyJS ~
 
 ## DEV
 
-clone `gatsbyblog`与`gatsbydeploy`到开发目录:
+clone `gatsbyblog`到开发目录:
 
 ```bash
-# 目前写死了，可以到./deploy.sh中修改
-~/center/gatsbyblog
-~/center/gatsbydeploy
+git clone --.git
+cd gatsbyblog
+yarn
+# 进行开发调试
+yarn run dev
 ```
 
-1. 进入`gatsbyblog`目录，运行`npm install`
+## Deploy
 
-1. 开发运行`npm run dev`，部署运行`./deploy.sh`
-
-1. 部署时候，如果需要增加`prefix`，可以如下修改:
+部署时候，如果需要增加`prefix`，可以如下修改：
 
 ```js
 // gatsby-config.js
@@ -28,6 +28,17 @@ module.exports = {
 "build": "gatsby build --prefix-paths",
 ```
 
+修改以后内部的链接都会以此为依据改变。运行根目录`deploy.sh`构建至至`docs`目录，默认情况下会以时间作为`commit`内容。
+
+```bash
+# 内部暂时写死了.git，可以.git/config中修改
+./deploy.sh
+```
+
 ## NOTE
 
 1. tags中是后续的属性名，用英文
+
+## TODO
+
+- [ ]`deploy.sh`运行时，增加交互式`commit`
