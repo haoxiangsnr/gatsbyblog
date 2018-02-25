@@ -2,6 +2,7 @@ import React from "react";
 import Link from "gatsby-link";
 import styles from "./index.module.less";
 import Header from "../components/header/header";
+import {Helmet} from "react-helmet";
 import "prismjs/themes/prism-coy.css"
 
 if (typeof document !== `undefined`) {
@@ -19,6 +20,11 @@ export default ({children, data}) => {
     const metadata = data.site.siteMetadata;
     return (
         <div className={styles.container}>
+            <Helmet>
+                <meta name="description" content="关于郝翔,haoxiang,getcha22的博客,提供技术文章的分享" />
+                <meta name="keywords" content="博客,前端,机器学习,简历,郝翔,haoxiang"/>
+                <title>getcha22 郝翔 博客 haoxiang</title>
+            </Helmet>
             <Header
                 title={metadata.title}
                 nav={metadata.nav}

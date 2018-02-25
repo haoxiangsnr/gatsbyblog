@@ -27,7 +27,7 @@ class Archive extends Component {
                         let publishedPost;
                         if (! nopublish) {
                             publishedPost = (
-                                    <li className={styles.item} key={i}>
+                                    <li className={styles.item}>
                                         <Link className={styles.link} to={`/posts${node.fields.slug}`}>
                                             {title}
                                         </Link>
@@ -35,8 +35,9 @@ class Archive extends Component {
                                     </li>
                             );
                         }
+                        // 暂时没有更好的方法，直接将key加到这里了
                         return (
-                            <div>
+                            <div key={i}>
                                 {publishedPost}
                             </div>
                         )

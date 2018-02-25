@@ -4,7 +4,6 @@ import React from "react";
 import styles from "./index.module.less";
 import Card from "../components/card/card";
 import Nav from "../components/nav/nav";
-import {Helmet} from "react-helmet";
 
 class Index extends React.Component {
     constructor(props) {
@@ -16,9 +15,6 @@ class Index extends React.Component {
         const posts = this.props.data.allMarkdownRemark.edges;
         return (
         <div className={styles.container}>
-                <Helmet>
-                    <title>getcha22-郝翔-博客-haoxiang</title>
-                </Helmet>
             <Nav items={['推荐文章', '文章汇总']} links={[``, `/archive`]} curItem='0' />
             {   
                 posts.map((postData, i) => {
