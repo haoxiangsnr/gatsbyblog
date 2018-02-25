@@ -1,2 +1,0 @@
-webpackJsonp([0x7270f944c465],{429:function(t,a){t.exports={data:{markdownRemark:{html:"",frontmatter:{title:"Rails 安装记录",date:"2015-07-10",tags:["Ruby","Rails","installtion-record"]}}},pathContext:{slug:"/tmux-operation/"}}}});
-//# sourceMappingURL=path---posts-tmux-operation-c109a5110f2220846ba4.js.map

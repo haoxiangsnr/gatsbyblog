@@ -1,2 +1,0 @@
-webpackJsonp([0x7767772df129],{408:function(t,a){t.exports={data:{markdownRemark:{html:"",frontmatter:{title:"Rails 安装记录",date:"2015-07-10",tags:["Ruby","Rails","installtion-record"]}}},pathContext:{slug:"/git-alias/"}}}});
-//# sourceMappingURL=path---posts-git-alias-06ce7f4bb870a2858637.js.map

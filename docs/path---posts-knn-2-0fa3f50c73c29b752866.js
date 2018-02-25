@@ -1,2 +1,0 @@
-webpackJsonp([72399004452754],{415:function(t,a){t.exports={data:{markdownRemark:{html:"",frontmatter:{title:"Rails 安装记录",date:"2015-07-10",tags:["Ruby","Rails","installtion-record"]}}},pathContext:{slug:"/knn-2/"}}}});
-//# sourceMappingURL=path---posts-knn-2-0fa3f50c73c29b752866.js.map

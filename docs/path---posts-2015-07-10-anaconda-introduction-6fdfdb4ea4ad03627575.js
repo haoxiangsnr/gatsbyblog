@@ -1,2 +1,0 @@
-webpackJsonp([31759545602972],{409:function(t,a){t.exports={data:{markdownRemark:{html:"",frontmatter:{title:"Rails 安装记录",date:"2015-07-10",tags:["Ruby","Rails","installtion-record"]}}},pathContext:{slug:"/2015-07-10---anaconda-introduction/"}}}});
-//# sourceMappingURL=path---posts-2015-07-10-anaconda-introduction-6fdfdb4ea4ad03627575.js.map

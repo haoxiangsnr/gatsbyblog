@@ -1,2 +1,0 @@
-webpackJsonp([60335399758886],{117:function(t,e){t.exports={data:{site:{siteMetadata:{title:"HAO羊羽",nav:["resume","project","archive"]}}},layoutContext:{}}}});
-//# sourceMappingURL=path----3e017d5ec7ea52f29ed5.js.map

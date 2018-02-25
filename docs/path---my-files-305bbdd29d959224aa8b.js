@@ -1,2 +1,0 @@
-webpackJsonp([0x93f8b10ddf38],{377:function(e,t){e.exports={data:{allFile:{edges:[{node:{relativePath:"sweet-pandas-eating-sweets.md",prettySize:"298 B",extension:"md",birthTime:"6 hours ago"}},{node:{relativePath:"pandas-and-bananas.md",prettySize:"345 B",extension:"md",birthTime:"6 hours ago"}},{node:{relativePath:"os-1.md",prettySize:"6.11 kB",extension:"md",birthTime:"6 hours ago"}},{node:{relativePath:"os-2.md",prettySize:"6.37 kB",extension:"md",birthTime:"6 hours ago"}}]}},pathContext:{}}}});
-//# sourceMappingURL=path---my-files-305bbdd29d959224aa8b.js.map
