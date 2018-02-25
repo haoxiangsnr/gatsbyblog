@@ -1,19 +1,12 @@
-git status
-git add .
-git commit -m date
-git push all master
-
+# 删除旧文件
+rm -rf docs
 # 开始构建
 npm run build
+# 修改命名
+mv public docs
 
-# 删除过往文件
-cd ../gatsbydeploy
-ls | grep -v ./git | xargs rm -rf
-
-# 此时已经在deploy目录了
-cp -rf ../gatsbyblog/public/* ./
-# git 
 git status
 git add .
 git commit -m date
-git push origin master
+# 推送到两处仓库
+git push all master

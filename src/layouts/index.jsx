@@ -23,7 +23,7 @@ export default ({children, data}) => {
             <Helmet>
                 <meta name="description" content="关于郝翔,haoxiang,getcha22的博客,提供技术文章的分享" />
                 <meta name="keywords" content="博客,前端,机器学习,简历,郝翔,haoxiang"/>
-                <title>getcha22 郝翔 博客 haoxiang</title>
+                <title>郝翔的博客 首页 HAO羊羽'S Blog </title>
             </Helmet>
             <Header
                 title={metadata.title}
