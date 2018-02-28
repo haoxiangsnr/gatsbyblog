@@ -25,11 +25,11 @@ const createTagPages = (createPage, edges) => {
 
     edges.forEach(({ node }) => {
         if (node.frontmatter.tags) {
-          node.frontmatter.tags.forEach(tag => {
-            if (!posts[tag]) {
-              posts[tag] = [];
-            }
-            posts[tag].push(node);
+            node.frontmatter.tags.forEach(tag => {
+                if (!posts[tag]) {
+                    posts[tag] = [];
+                }
+                posts[tag].push(node);
           });
         }
     });
@@ -38,7 +38,7 @@ const createTagPages = (createPage, edges) => {
         path: "/tags",
         component: tagTemplate,
         context: {
-          posts,
+          posts
         },
     });
   
@@ -51,7 +51,7 @@ const createTagPages = (createPage, edges) => {
             context: {
               posts,
               post,
-              tag: tagName,
+              tag: tagName
             },
         });
     });

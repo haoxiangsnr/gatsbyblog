@@ -66,14 +66,21 @@
      max-width: 980px;
      margin: 0 auto;
      background: #fff;
+     line-height: 1.8;
  }
 
  .fullContainer .postContent {
      margin-top: 5rem;
+     line-height: 1.8;
  }
 
  .postContent a {
-     color: @meituan-color;
+    text-decoration: none;
+    border-bottom: 1px dashed orange;
+    color: @meituan-color;
+    &:hover {
+        background-color: LightGrey;
+    }
  }
 
  .postContent h1 {
