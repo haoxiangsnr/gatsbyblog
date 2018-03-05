@@ -5,20 +5,20 @@
       "path---posts-2018-02-17-database-1-393f1af3fd5d47c37fac.js.map"
     ],
     "path---tags-python": [
-      "path---tags-python-61ce10ecc5e615392dc1.js",
-      "path---tags-python-61ce10ecc5e615392dc1.js.map"
+      "path---tags-python-a0fd2f960534ef304eea.js",
+      "path---tags-python-a0fd2f960534ef304eea.js.map"
     ],
     "path---tags-db": [
-      "path---tags-db-567a32c11e36a87c704a.js",
-      "path---tags-db-567a32c11e36a87c704a.js.map"
+      "path---tags-db-c2cbae998a64b90ef958.js",
+      "path---tags-db-c2cbae998a64b90ef958.js.map"
     ],
     "path---tags-summary": [
-      "path---tags-summary-7775d2c20d71e91f54be.js",
-      "path---tags-summary-7775d2c20d71e91f54be.js.map"
+      "path---tags-summary-6b8a9985d948415cc71c.js",
+      "path---tags-summary-6b8a9985d948415cc71c.js.map"
     ],
     "path---tags-es-6": [
-      "path---tags-es-6-0aeb059cb7a3c97dc1b0.js",
-      "path---tags-es-6-0aeb059cb7a3c97dc1b0.js.map"
+      "path---tags-es-6-918049dd59324d77687f.js",
+      "path---tags-es-6-918049dd59324d77687f.js.map"
     ],
     "path---posts-2015-07-10-anaconda-introduction": [
       "path---posts-2015-07-10-anaconda-introduction-09deb9a6707e22367044.js",
@@ -37,20 +37,20 @@
       "path---posts-2017-03-04-knn-1-c427a1b9ac9ea541f9b0.js.map"
     ],
     "path---tags": [
-      "path---tags-ec73bfd88d8855760779.js",
-      "path---tags-ec73bfd88d8855760779.js.map"
+      "path---tags-4604b3082e2ee522ec72.js",
+      "path---tags-4604b3082e2ee522ec72.js.map"
     ],
     "path---posts-2016-09-07-js-function-2": [
       "path---posts-2016-09-07-js-function-2-e80e370de813502080a3.js",
       "path---posts-2016-09-07-js-function-2-e80e370de813502080a3.js.map"
     ],
     "path---tags-function": [
-      "path---tags-function-38d164ad59318ff992df.js",
-      "path---tags-function-38d164ad59318ff992df.js.map"
+      "path---tags-function-3010eb434bd46b43cf07.js",
+      "path---tags-function-3010eb434bd46b43cf07.js.map"
     ],
     "path---tags-knn": [
-      "path---tags-knn-7de79015f1b0daa2346f.js",
-      "path---tags-knn-7de79015f1b0daa2346f.js.map"
+      "path---tags-knn-ecbc61a25f9baca16d64.js",
+      "path---tags-knn-ecbc61a25f9baca16d64.js.map"
     ],
     "path---": [
       "path----20995ef3e4b60fd006f0.js",
@@ -69,8 +69,8 @@
       "path---posts-2017-04-30-numpy-ndarray-8fd9b2f3b73d9758ed8a.js.map"
     ],
     "path---tags-node": [
-      "path---tags-node-81d0fc7966e39d258ef7.js",
-      "path---tags-node-81d0fc7966e39d258ef7.js.map"
+      "path---tags-node-60326428bad3f6744b17.js",
+      "path---tags-node-60326428bad3f6744b17.js.map"
     ],
     "path---posts-2016-07-03-es-6-string": [
       "path---posts-2016-07-03-es-6-string-fc527c0d6a8e5917d35e.js",
@@ -85,24 +85,24 @@
       "component---src-layouts-index-jsx-6578bd223c1c16ec2fcc.js.map"
     ],
     "path---tags-react": [
-      "path---tags-react-c39b7eff86ee288bda25.js",
-      "path---tags-react-c39b7eff86ee288bda25.js.map"
+      "path---tags-react-ba14fcec083fa6624e47.js",
+      "path---tags-react-ba14fcec083fa6624e47.js.map"
     ],
     "path---tags-tmux": [
-      "path---tags-tmux-76303a4f1c6fde02ce6e.js",
-      "path---tags-tmux-76303a4f1c6fde02ce6e.js.map"
+      "path---tags-tmux-5794878a2df8e3ae1d89.js",
+      "path---tags-tmux-5794878a2df8e3ae1d89.js.map"
     ],
     "path---posts-2016-11-12-node-module-loader": [
       "path---posts-2016-11-12-node-module-loader-32218c633a7cf5aed47b.js",
       "path---posts-2016-11-12-node-module-loader-32218c633a7cf5aed47b.js.map"
     ],
     "path---tags-c": [
-      "path---tags-c-4e0a53296fe51e84f5bc.js",
-      "path---tags-c-4e0a53296fe51e84f5bc.js.map"
+      "path---tags-c-ecac227cd627aa39e0cb.js",
+      "path---tags-c-ecac227cd627aa39e0cb.js.map"
     ],
     "path---tags-memory": [
-      "path---tags-memory-0e7170dfdba993dab58b.js",
-      "path---tags-memory-0e7170dfdba993dab58b.js.map"
+      "path---tags-memory-ac2144aac8b5894a9f17.js",
+      "path---tags-memory-ac2144aac8b5894a9f17.js.map"
     ],
     "path---posts-2017-02-12-mysql-operation": [
       "path---posts-2017-02-12-mysql-operation-fe179545f19806fede4f.js",
@@ -121,8 +121,8 @@
       "path---posts-2016-10-01-node-file-system-1fc93f37d0b3b9b6e1dc.js.map"
     ],
     "path---tags-linux": [
-      "path---tags-linux-18baa27fb94a737d145f.js",
-      "path---tags-linux-18baa27fb94a737d145f.js.map"
+      "path---tags-linux-24e841b627a6f2edc7b6.js",
+      "path---tags-linux-24e841b627a6f2edc7b6.js.map"
     ],
     "path---posts-2016-06-03-shadowsocks-install": [
       "path---posts-2016-06-03-shadowsocks-install-e304108a2faab681bb48.js",
@@ -133,12 +133,12 @@
       "path---posts-2018-02-12-why-is-gatsby-fast-228caf89d096dd06bd59.js.map"
     ],
     "path---index": [
-      "path---index-80a1e2de1b203ed7332f.js",
-      "path---index-80a1e2de1b203ed7332f.js.map"
+      "path---index-d94f2820b8c00f116e68.js",
+      "path---index-d94f2820b8c00f116e68.js.map"
     ],
     "path---tags-rails": [
-      "path---tags-rails-09aaff507a2223247c74.js",
-      "path---tags-rails-09aaff507a2223247c74.js.map"
+      "path---tags-rails-daef90b10747021e95f4.js",
+      "path---tags-rails-daef90b10747021e95f4.js.map"
     ],
     "path---posts-2016-05-07-js-logic-operation": [
       "path---posts-2016-05-07-js-logic-operation-1b52221a4d75d29d9c6e.js",
@@ -171,16 +171,16 @@
       "path---posts-2016-09-01-git-branch-7db37387bdb9235a7baa.js.map"
     ],
     "path---tags-anaconda": [
-      "path---tags-anaconda-b6e61ccd18378a90d506.js",
-      "path---tags-anaconda-b6e61ccd18378a90d506.js.map"
+      "path---tags-anaconda-f3277cccad63b9efabd2.js",
+      "path---tags-anaconda-f3277cccad63b9efabd2.js.map"
     ],
     "path---posts-2016-04-05-regular-expression-1": [
       "path---posts-2016-04-05-regular-expression-1-f09da326fccf1111e4d2.js",
       "path---posts-2016-04-05-regular-expression-1-f09da326fccf1111e4d2.js.map"
     ],
     "path---tags-installtion-record": [
-      "path---tags-installtion-record-b7687d28d0ac2c8244a5.js",
-      "path---tags-installtion-record-b7687d28d0ac2c8244a5.js.map"
+      "path---tags-installtion-record-8dc1902441b66c55b4a9.js",
+      "path---tags-installtion-record-8dc1902441b66c55b4a9.js.map"
     ],
     "path---posts-2016-05-03-opensauce": [
       "path---posts-2016-05-03-opensauce-129322c687b8a65acf9e.js",
@@ -191,44 +191,44 @@
       "path---posts-2016-02-07-js-in-37535436784f7a8c3707.js.map"
     ],
     "path---tags-unit-testing": [
-      "path---tags-unit-testing-a5cb501766c265eeb23f.js",
-      "path---tags-unit-testing-a5cb501766c265eeb23f.js.map"
+      "path---tags-unit-testing-c722a0a65bf13aa93bff.js",
+      "path---tags-unit-testing-c722a0a65bf13aa93bff.js.map"
     ],
     "path---tags-my-sql": [
-      "path---tags-my-sql-0b7abf4fb2cc6f15fc4d.js",
-      "path---tags-my-sql-0b7abf4fb2cc6f15fc4d.js.map"
+      "path---tags-my-sql-1a861db0d5524a7b4f28.js",
+      "path---tags-my-sql-1a861db0d5524a7b4f28.js.map"
     ],
     "path---posts-2017-03-10-knn-2": [
       "path---posts-2017-03-10-knn-2-f075704aa8fc2e977d07.js",
       "path---posts-2017-03-10-knn-2-f075704aa8fc2e977d07.js.map"
     ],
     "path---tags-shadowsocks": [
-      "path---tags-shadowsocks-f4daaba7eeb5427b97c8.js",
-      "path---tags-shadowsocks-f4daaba7eeb5427b97c8.js.map"
+      "path---tags-shadowsocks-404cb1a8d3c8a882dcc6.js",
+      "path---tags-shadowsocks-404cb1a8d3c8a882dcc6.js.map"
     ],
     "path---tags-regular-expression": [
-      "path---tags-regular-expression-58358d8dc75ad957f0ec.js",
-      "path---tags-regular-expression-58358d8dc75ad957f0ec.js.map"
+      "path---tags-regular-expression-ab33cbc6dd8f370aed9d.js",
+      "path---tags-regular-expression-ab33cbc6dd8f370aed9d.js.map"
     ],
     "path---tags-sql": [
-      "path---tags-sql-b9b1a1a6bc3661430cc8.js",
-      "path---tags-sql-b9b1a1a6bc3661430cc8.js.map"
+      "path---tags-sql-e27a286ff93835a81b69.js",
+      "path---tags-sql-e27a286ff93835a81b69.js.map"
     ],
     "path---posts-2018-02-28-c-language-exercises-3": [
-      "path---posts-2018-02-28-c-language-exercises-3-2eadc88b163adbb1a9f3.js",
-      "path---posts-2018-02-28-c-language-exercises-3-2eadc88b163adbb1a9f3.js.map"
+      "path---posts-2018-02-28-c-language-exercises-3-5e71a231c583093fff83.js",
+      "path---posts-2018-02-28-c-language-exercises-3-5e71a231c583093fff83.js.map"
     ],
     "path---tags-css": [
-      "path---tags-css-16dea26dcc70c2c44793.js",
-      "path---tags-css-16dea26dcc70c2c44793.js.map"
+      "path---tags-css-1c231c1038cefff47aa5.js",
+      "path---tags-css-1c231c1038cefff47aa5.js.map"
     ],
     "path---tags-java-script": [
-      "path---tags-java-script-140a6c9910103bdbc2e3.js",
-      "path---tags-java-script-140a6c9910103bdbc2e3.js.map"
+      "path---tags-java-script-df06e53ecc2446e4f6af.js",
+      "path---tags-java-script-df06e53ecc2446e4f6af.js.map"
     ],
     "path---tags-numpy": [
-      "path---tags-numpy-71b8272e9694b6c7ebfa.js",
-      "path---tags-numpy-71b8272e9694b6c7ebfa.js.map"
+      "path---tags-numpy-6d5cc78fae125a9c2254.js",
+      "path---tags-numpy-6d5cc78fae125a9c2254.js.map"
     ],
     "component---src-pages-index-jsx": [
       "component---src-pages-index-jsx-b09aeffd2df37b734773.js",
@@ -239,12 +239,12 @@
       "path---posts-2016-10-02-git-develop-workflow-6fc938064d36ede68ae0.js.map"
     ],
     "path---tags-git": [
-      "path---tags-git-a89397cbbdf8db0d57bc.js",
-      "path---tags-git-a89397cbbdf8db0d57bc.js.map"
+      "path---tags-git-902f4c949a4b3e2188ab.js",
+      "path---tags-git-902f4c949a4b3e2188ab.js.map"
     ],
     "path---tags-opensauce": [
-      "path---tags-opensauce-b82ee46611237133e6e0.js",
-      "path---tags-opensauce-b82ee46611237133e6e0.js.map"
+      "path---tags-opensauce-63213bc4a3215cec2eb6.js",
+      "path---tags-opensauce-63213bc4a3215cec2eb6.js.map"
     ],
     "app": [
       "app-e0c99985fb1d5ebc521a.js",
@@ -253,8 +253,8 @@
       "build-js-styles.css.map"
     ],
     "path---archive": [
-      "path---archive-82a44da210706a653134.js",
-      "path---archive-82a44da210706a653134.js.map"
+      "path---archive-f22cd23ffd854a467e03.js",
+      "path---archive-f22cd23ffd854a467e03.js.map"
     ],
     "path---posts-2015-07-10-rails-install": [
       "path---posts-2015-07-10-rails-install-74c0a0606058978b65ac.js",
@@ -265,8 +265,8 @@
       "path---posts-2016-09-10-git-alias-b67b1e0f602b18a5efb6.js.map"
     ],
     "path---tags-bootloader": [
-      "path---tags-bootloader-090df16824110de58777.js",
-      "path---tags-bootloader-090df16824110de58777.js.map"
+      "path---tags-bootloader-fd545ff7b6e0b4be01e9.js",
+      "path---tags-bootloader-fd545ff7b6e0b4be01e9.js.map"
     ],
     "path---posts-2016-08-20-git-add": [
       "path---posts-2016-08-20-git-add-c6f0c00447ba0e5ac025.js",
@@ -277,20 +277,20 @@
       "path---posts-2017-01-01-final-summary-2016-d744a4e456b27f8a3bee.js.map"
     ],
     "path---tags-js": [
-      "path---tags-js-45aafa3c15f75c9c1419.js",
-      "path---tags-js-45aafa3c15f75c9c1419.js.map"
+      "path---tags-js-c01bb56251252d4cfc65.js",
+      "path---tags-js-c01bb56251252d4cfc65.js.map"
     ],
     "path---tags-os": [
-      "path---tags-os-20509407c70689f7a9b3.js",
-      "path---tags-os-20509407c70689f7a9b3.js.map"
+      "path---tags-os-18d06dfd92a4bd6a83ff.js",
+      "path---tags-os-18d06dfd92a4bd6a83ff.js.map"
     ],
     "path---tags-ml": [
-      "path---tags-ml-4695d5ef8350c2828af6.js",
-      "path---tags-ml-4695d5ef8350c2828af6.js.map"
+      "path---tags-ml-4b3177c7f2f533ee9e5f.js",
+      "path---tags-ml-4b3177c7f2f533ee9e5f.js.map"
     ],
     "path---tags-ruby": [
-      "path---tags-ruby-fc52be9c996e6ac2af50.js",
-      "path---tags-ruby-fc52be9c996e6ac2af50.js.map"
+      "path---tags-ruby-49ef991a4a9fea945732.js",
+      "path---tags-ruby-49ef991a4a9fea945732.js.map"
     ],
     "path---posts-2018-01-10-os-1": [
       "path---posts-2018-01-10-os-1-29bcc3acf66959510559.js",
