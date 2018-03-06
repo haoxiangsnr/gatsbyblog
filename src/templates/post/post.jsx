@@ -30,7 +30,7 @@ export default class Post extends Component {
         return (
             <div className={fullContainer}>
                 <Helmet>
-                    <title>{title} 来自郝翔的个人网站</title>
+                    <title>{title}_郝翔的博客_haoxiang</title>
                 </Helmet>
                 {nav}
                 <div className={styles.postContent}>

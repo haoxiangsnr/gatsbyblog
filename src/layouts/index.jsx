@@ -22,8 +22,8 @@ export default ({children, data}) => {
         <div className={styles.container}>
             <Helmet>
                 <meta name="description" content="关于郝翔,haoxiang,getcha22的博客,提供技术文章的分享" />
-                <meta name="keywords" content="博客,前端,机器学习,简历,郝翔,haoxiang"/>
-                <title>郝翔的博客 首页 HAO羊羽'S Blog </title>
+                <meta name="keywords" content="郝翔,博客,前端,机器学习,简历,haoxiang,个人主页"/>
+                <title>首页_郝翔的博客_计算机之美_haoxiang</title>
             </Helmet>
             <Header
                 title={metadata.title}
